@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fast-compressor-fab4h9nrw-wakeels-projects-610a677d.vercel.app/sitemap.xml
