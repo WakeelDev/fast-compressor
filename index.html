@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>FastCompress – Free Online Image Compression Tool</title>
-
     <meta name="description" content="Compress images online for free. Reduce image size without losing quality. Supports JPG, PNG, WebP & bulk image compression.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <script src="https://cdn.tailwindcss.com"></script>
-
     <style>
         .ad-box {
             background: #f3f4f6;
@@ -37,7 +34,16 @@
 
 <div class="ad-box">TOP AD SLOT</div>
 
-<div class="max-w-xl mx-auto py-10 px-4">
+<nav class="py-6">
+    <div class="max-w-xl mx-auto px-4 flex justify-center space-x-8 text-xs font-bold text-slate-400 uppercase tracking-widest">
+        <a href="index.html" class="hover:text-blue-600 transition-colors">Tool</a>
+        <a href="about.html" class="hover:text-blue-600 transition-colors">About</a>
+        <a href="faq.html" class="hover:text-blue-600 transition-colors">FAQ</a>
+        <a href="privacy.html" class="hover:text-blue-600 transition-colors">Privacy</a>
+    </div>
+</nav>
+
+<div class="max-w-xl mx-auto pb-10 px-4">
 
     <div class="bg-white p-8 rounded-3xl shadow-2xl border border-slate-100">
 
@@ -48,19 +54,7 @@
         <p class="text-center text-slate-400 mb-6 font-medium">
             Compress images securely — no uploads stored
         </p>
- <nav class="bg-white border-b border-slate-200 py-4 mb-6">
-    <div class="max-w-xl mx-auto px-4 flex justify-between items-center">
-        <a href="index.html" class="text-xl font-black text-blue-600 italic tracking-tighter">FastCompress</a>
-        <div class="space-x-4 text-xs font-bold text-slate-500 uppercase tracking-widest">
-            <a href="index.html" class="hover:text-blue-600">Tool</a>
-            <a href="about.html" class="hover:text-blue-600">About</a>
-            <a href="faq.html" class="hover:text-blue-600">FAQ</a>
-            <a href="privacy.html" class="hover:text-blue-600">Privacy</a>
-        </div>
-    </div>
-</nav>
 
-        <!-- Drop Zone -->
         <div id="drop-zone"
              class="border-4 border-dashed border-slate-200 rounded-2xl p-12 text-center
                     hover:border-blue-500 hover:bg-blue-50 cursor-pointer transition-all group">
@@ -69,7 +63,7 @@
 
             <div class="space-y-4">
                 <div class="text-5xl group-hover:scale-110 transition-transform">📸</div>
-                <button onclick="fileInput.click()"
+                <button onclick="document.getElementById('file-input').click()"
                         class="bg-blue-600 text-white px-10 py-3 rounded-xl font-bold
                                hover:bg-blue-700 shadow-lg shadow-blue-200">
                     Add Images
@@ -80,7 +74,6 @@
             </div>
         </div>
 
-        <!-- Quality Control -->
         <div class="mt-6">
             <label class="block text-sm font-bold text-slate-700 mb-1">
                 Compression Quality
@@ -96,7 +89,6 @@
             </p>
         </div>
 
-        <!-- Queue -->
         <div id="queue-section" class="mt-8 hidden border-t pt-6">
             <h3 class="font-bold text-slate-700 mb-3">
                 Images Ready (<span id="file-count">0</span>)
@@ -111,7 +103,6 @@
             </button>
         </div>
 
-        <!-- Loader -->
         <div id="loader"
              class="mt-4 hidden text-center animate-pulse text-blue-600 font-bold">
             Starting server & compressing images… please wait.
@@ -119,38 +110,18 @@
 
     </div>
 
-    <!-- SEO Content -->
-    <section class="mt-10 text-slate-600 text-sm leading-relaxed">
-        <h2 class="font-bold text-lg mb-2">Free Online Image Compressor</h2>
+    <section class="mt-10 text-slate-600 text-sm leading-relaxed px-4">
+        <h2 class="font-bold text-lg mb-2 text-slate-800">Free Online Image Compressor</h2>
         <p>
             FastCompress helps you reduce image file size without noticeable quality loss.
             Your images are processed securely and never stored. Ideal for websites,
             social media, and faster page loading.
         </p>
     </section>
-<!-- FAQ Section -->
-<section class="max-w-xl mx-auto mt-12 px-4 pb-12 text-gray-600">
-    <h2 class="text-xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
-    <dl class="space-y-4">
-        <div>
-            <dt class="font-semibold text-blue-600">Is this image compressor free?</dt>
-            <dd class="text-sm">Yes, FastCompress is a 100% free tool to reduce image size without losing quality.</dd>
-        </div>
-        <div>
-            <dt class="font-semibold text-blue-600">Is my data secure?</dt>
-            <dd class="text-sm">Absolutely. Your images are processed in-memory and deleted immediately after compression. We never store your files.</dd>
-        </div>
-        <div>
-            <dt class="font-semibold text-blue-600">Which formats are supported?</dt>
-            <dd class="text-sm">We support JPG, PNG, and WebP. All files are converted to highly optimized WebP format for maximum web performance.</dd>
-        </div>
-    </dl>
-</section>
 
-<div class="ad-box">BOTTOM AD SLOT</div>
+    <div class="ad-box mt-8">BOTTOM AD SLOT</div>
+
 </div>
-
-<div class="ad-box">BOTTOM AD SLOT</div>
 
 <script>
     const API_URL = "https://fast-compressor-api.onrender.com";
@@ -237,7 +208,3 @@
 
 </body>
 </html>
-
-
-
-
