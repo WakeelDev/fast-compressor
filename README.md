@@ -78,17 +78,4 @@ This project is licensed under the MIT License.
 
 Built by **Wakeel** - Feel free to reach out for suggestions or bug reports!
 
-```
 
----
-
-### How to add this to your project:
-1.  Go to your GitHub repository.
-2.  Click **Add file** > **Create new file**.
-3.  Name the file exactly `README.md`.
-4.  Paste the code above.
-5.  Click **Commit changes**.
-
-**Would you like me to show you how to add a "License" file next? Having a license is a key signal to Google that your project is a professional Open Source contribution.**
-
-```
