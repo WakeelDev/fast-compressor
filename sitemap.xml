@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fastcompress.vercel.app/</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://fast-compressor.vercel.app/</loc>
+    <lastmod>2026-01-19</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://fast-compressor-fab4h9nrw-wakeels-projects-610a677d.vercel.app/about.html</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://fast-compressor.vercel.app/about.html</loc>
+    <lastmod>2026-01-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fastcompress.vercel.app/faq.html</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://fast-compressor.vercel.app/faq.html</loc>
+    <lastmod>2026-01-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fastcompress.vercel.app/privacy.html</loc>
-    <lastmod>2026-01-18</lastmod>
-    <priority>0.7</priority>
+    <loc>https://fast-compressor.vercel.app/privacy.html</loc>
+    <lastmod>2026-01-19</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
