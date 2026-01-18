@@ -176,7 +176,7 @@
 
         try {
             const response = await fetch(
-                API_URL + "?quality=" + qualityInput.value,
+                API_URL + "/compress/images?quality=" + qualityInput.value,
                 { method: "POST", body: formData }
             );
 
@@ -207,4 +207,5 @@
 
 </body>
 </html>
+
 
